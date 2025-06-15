@@ -99,6 +99,10 @@ section {
   h2 {
     margin-block: 8px 4px;
   }
+
+  p {
+    color: var(--text-color-secondary)
+  }
 }
 
 aside {
@@ -106,6 +110,8 @@ aside {
 }
 
 #more {
+  margin-top: 32px;
+  
   img {
     width: 72px;
     aspect-ratio: 1/1;
@@ -113,6 +119,8 @@ aside {
   }
 
   h2 {
+    margin-top: 8px;
     font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
   }
 }
