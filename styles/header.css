@@ -7,6 +7,12 @@
     column-gap: 8px;
   }
 
+  .logo {
+    font: 400 24px/24px "Archivo Black", sans-serif;
+    text-transform: uppercase;
+    color: var(--brand-color-light);
+  }
+
   div:nth-child(2) {
     margin-inline: auto;
   }
