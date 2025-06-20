@@ -28,4 +28,8 @@
   padding: 14px 32px;
   border-block: 1px solid var(--stroke-color);
   justify-content: space-between;
+
+  a {
+    font: var(--text-span);
+  }
 }
