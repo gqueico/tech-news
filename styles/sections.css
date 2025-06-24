@@ -67,6 +67,7 @@ section {
 
   &>div {
     grid-template-columns: repeat(4, 292px);
+    padding-bottom: 24px;
   }
 
   img {
@@ -92,6 +93,10 @@ section {
   grid-area: ai;
   width: 696px;
 
+  article {
+    height: 176px;
+  }
+
   img {
     width: 176px;
     aspect-ratio: 1/1;
@@ -113,6 +118,10 @@ aside {
 
 #more {
   margin-top: 32px;
+
+  article {
+    height: 72px;
+  }
   
   img {
     width: 72px;
