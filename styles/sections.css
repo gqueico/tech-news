@@ -116,6 +116,25 @@ aside {
   grid-area: aside;
 }
 
+#ads {
+  position: relative;
+  height: 280px;
+
+  img {
+    border-radius: 4px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    right: 8px;
+    background-image: url(../assets/icons/CloseButton.svg);
+  }
+}
+
 #more {
   margin-top: 32px;
 
